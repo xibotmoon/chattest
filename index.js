@@ -41,6 +41,6 @@ io.sockets.on("connection", (socket) => {
 })
 
 //run server
-server.listen(8000, () => {
+server.listen(80, () => {
     console.log("running server!")
 })
